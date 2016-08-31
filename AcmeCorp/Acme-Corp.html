@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html>
 <style>
-  header {margin:0px; padding: 0px; border-style: solid; border-width: 1px; background-color: #c4c4c4; font-family: Lucida Grande; width: 100%; }
-  nav {float: right;}
-  body {margin: 0px; font-family: Lucida Grande; background-image: url("background.png");}
-  button {border: 0.5px solid black; background-color: #2A4CB2 /* Blue */; color: white; border-radius: 10px; padding: 18px 32px; font-size: 18px; font-family: "Lucida Grande"; margin: 20px;}
-  a {text-shadow: 2px 2px gray; color: white; padding: 18px 32px; font-size: 18px; font-family: "Lucida Grande"; margin: 0px;}
-  main {box-shadow: 3px 3px 3px gray; border-radius: 10px; background-color: white; font-family: "Lucida Grande"; padding: 5px 5px 5px; padding-right: 1cm; padding-left: 1cm; padding-bottom: 1cm; margin: auto; max-width: 800px; margin-top: 50px;}
-  footer {margin: auto; max-width: 800px; border-top: 1px solid rgb(209, 206, 207); padding-top:25px; text-align: center; color: rgb(199, 195, 196); font-family: "Lucida Grande"; font-size: 11px; margin-top: 50px;}
+  header {
+    margin:0px;
+    padding: 0px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #c4c4c4;
+    font-family: Lucida Grande;
+    width: 100%; }
+  nav {
+    float: right;}
+  body {
+    margin: 0px;
+    font-family: Lucida Grande;
+    background-image: url("background.png");}
+  button {
+    border: 0.5px solid black;
+    background-color: #2A4CB2 /* Blue */;
+    color: white;
+    border-radius: 10px;
+    padding: 18px 32px;
+    font-size: 18px;
+    font-family: "Lucida Grande";
+    margin: 20px;}
+  a {
+    text-shadow: 2px 2px gray;
+    color: white;
+    padding: 18px 32px;
+    font-size: 18px;
+    font-family: "Lucida Grande";
+    margin: 0px;}
+  div#main_div{
+    max-width: 800px;
+    margin: auto;
+  }
+  main {
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 10px;
+    background-color: white;
+    font-family: "Lucida Grande";
+    padding: 5px 1cm 1cm 1cm;
+    margin-top: 50px;}
+  footer {
+    border-top: 1px solid rgb(209, 206, 207);
+    padding-top:25px;
+    text-align: center;
+    color: rgb(199, 195, 196);
+    font-family: "Lucida Grande";
+    font-size: 11px;
+    margin-top: 50px;}
 </style>
 <head>
   <meta charset="utf-8">
@@ -21,6 +63,7 @@
       <button type="SignUp" name="SignUp">Sign Up</button>
     </nav>
   </header>
+  <div id="main_div">
     <main>
       <p>
         <h1>Welcome to ACME Corp!</h1>
@@ -32,5 +75,6 @@
     <footer>
         Copyright, 2015
     </footer>
+  </div>
 </body>
 </html>
