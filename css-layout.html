@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <meta charset="utf-8">
+    <title>CSS Layout</title>
+  </head>
+  <body>
+
+    <h1>CSS Layout</h1>
+
+    <h2>Technique #1: Table</h2>
+<table>
+  <tr>
+    <td>blue</td>
+    <td>purple</td>
+    <td>orange</td>
+  </tr>
+</table>
+
+    <h2>Technique #2: Float</h2>
+    <ul>
+      <li>red</li>
+      <li>green</li>
+      <li>white</li>
+    </ul>
+    <p>Copyright 2018</p>
+
+    <h2>Technique #3: Flexbox</h3>
+    <main>
+      <section>Column 1</section>
+      <section>Column 200</section>
+      <section>Column 30000000000000000</section>
+    </main>
+
+    <h2>Flexbox 1/4 - 1/2</h2>
+    <main>
+      <section class="half">Column 1</section>
+      <section>Column 200</section>
+      <section>Column 30000000000000000</section>
+    </main>
+
+    <h2>Flex Sidebar</h2>
+    <header>
+      <article>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </article>
+      <article>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </article>
+      <div class="sidebar">
+        Sidebar
+      </div>
+    </header>
+
+
+<style>
+body {margin: 20px}
+h2 { margin: 10px;}
+/* Table, child styles: */
+td{
+  background-color:#aaccaa;
+  padding:20px
+}
+/* Float, parent styles: */
+ul {
+  overflow: hidden;
+}
+/* Float, child styles: */
+li {
+  float: left;
+  background: lightblue;
+  border: 1px solid blue;
+  padding: 20px;
+}
+/* Flex, parent styles: */
+main  {
+  display:flex;
+}
+/* Flex, child styles: */
+section {
+  padding: 10px;
+  background: #aaccaa;
+  border: 1px solid black;
+  flex: 1;
+}
+.half {
+  flex: 2;
+}
+/* Flex Sidebar, child styles: */
+header {
+  display: flex;
+}
+article {
+  flex: 1;
+}
+.sidebar {
+  width: 200px;
+  background: gray;
+  border: 3px solid black;
+}
+</style>
+
+</body>
+</html>

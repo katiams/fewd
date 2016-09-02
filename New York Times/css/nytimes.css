@@ -1,0 +1,16 @@
+body {
+  max-width: 600px;
+  margin: auto;
+}
+header {
+  text-align: center;
+  padding: 10px;
+}
+div {
+  display: flex;
+  font-size: 12px;
+}
+article {
+  flex:1;
+  padding: 10px;
+}
