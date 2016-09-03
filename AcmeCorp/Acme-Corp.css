@@ -40,11 +40,12 @@
     font-family: "Lucida Grande";
     padding: 5px 1cm 1cm 1cm;
     margin-top: 50px;}
+div#productdiv {border-bottom: 1px solid black;}
   div#productimage{
     display: inline;
   }
-  img#image {border: 1px solid black;}
-  div#productdescription { display:inline; float: right; }
+  img#image {border: 1px solid black; max-width:210px;}
+  div#productdescription { display: inline-flex; float: right;}
   button#addtocart {
     border: 0.5px solid black;
     background-color: #2A4CB2 /* Blue */;
@@ -53,7 +54,7 @@
     padding: 18px 32px;
     font-size: 18px;
     font-family: "Lucida Grande";
-    margin: 20px;}
+  }
   a#details {
     color: blue;}
   footer {
