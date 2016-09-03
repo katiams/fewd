@@ -44,7 +44,7 @@
   div#productimage{
     display: inline;
   }
-  img#image {border-radius: 5px; border: 1px solid black; max-width:210px;}
+  img#image {border: 5px solid rgb(209, 206, 207); outline: 1px solid black; max-width:200px;}
   div#productdescription { display: inline-flex; float: right;}
   button#addtocart {
     border: 0.5px solid black;
