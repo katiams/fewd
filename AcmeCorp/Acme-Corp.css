@@ -1,4 +1,4 @@
-    * {
+  * {
       font-family: "Lucida Grande";
     }
   header {
@@ -105,4 +105,9 @@
     color: rgb(199, 195, 196);
     font-family: "Lucida Grande";
     font-size: 12px;
-    margin-top: 50px;}
+    width: 80%;
+    max-width: 800px;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+  }
