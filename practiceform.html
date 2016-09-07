@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+    <style media="screen">
+      button {
+        background-color: gray;
+        box-shadow: 1px 1px black;
+        margin:5px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <fieldset>
+        <legend>Name</legend>
+      <label for="first-name">First</label>
+      <input type="text" name="first-name" value="" id="first-name" placeholder="Katia">
+      <label for="last-name">Last</label>
+      <input type="text" name="last-name" value="" id="last-name" placeholder="Senff">
+      </fieldset>
+      <fieldset>
+        <legend>Account Info</legend>
+      <label for="email">Email</label>
+      <input type="email" name="email" value="" id="email" placeholder="katia@katia.com">
+      <label for="password">Password</label>
+      <input type="text" name="password" value="" id="password" placeholder="secret">
+      </fieldset>
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="male" value="" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="female" value="" id="female">
+        <label for="female">Female</label>
+      </fieldset>
+      <button type="save" name="save">Save</button>
+    </form>
+  </body>
+</html>
