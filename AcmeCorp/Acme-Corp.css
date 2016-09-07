@@ -98,6 +98,10 @@
      width: 80px;
      margin: 5px;
    }
+   .text {
+     border-radius: 3px;
+     border: 1px solid rgb(209, 206, 207);
+ }
   footer {
     border-top: 1px solid rgb(209, 206, 207);
     padding-top:25px;
