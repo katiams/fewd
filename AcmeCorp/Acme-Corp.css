@@ -24,6 +24,7 @@
     font-size: 18px;
     font-family: "Lucida Grande";
     margin: 20px;
+    text-decoration: none;
   }
   button#signup-bottom {
     border: 0.5px solid black;
@@ -41,7 +42,8 @@
     padding: 18px 32px;
     font-size: 18px;
     font-family: "Lucida Grande";
-    margin: 0px;}
+    margin: 0px;
+    text-decoration: none;}
   div#main_div{
     width: 80%;
     max-width: 800px;
