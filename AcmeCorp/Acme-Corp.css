@@ -95,22 +95,25 @@
     font-size: 30px;
     margin: 10px;
   }
+  input {
+    font-size: 15px;
+  }
   .form-row {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
    .text-label {
      display: inline-block;
      width: 150px;
    }
-   .service_terms {
-     display: inline;
-     width: 5px;
-     margin: 10px;
-   }
    .survey {
      display: block;
      width: 80px;
-     margin: 5px;
+     margin: 10px;
+   }
+   .service_terms {
+     display: inline;
+     margin: 10px;
+     padding: 20px;
    }
    .text {
      border-radius: 3px;
