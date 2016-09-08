@@ -37,7 +37,7 @@
     font-family: "Lucida Grande";
     margin: 10px;
   }
-  a#products{
+  .products{
     text-shadow: 2px 2px gray;
     color: white;
     padding: 18px 32px;
